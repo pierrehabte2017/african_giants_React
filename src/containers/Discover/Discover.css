@@ -1,0 +1,21 @@
+.Title {
+    top:250px;
+    position:relative;
+    color:rgba(21,174,8,100);
+}
+
+.Feed {
+    top:270px;
+    position: relative;
+
+}
+
+.LoadMoreContent{
+    position:relative;
+    height: 100px;
+    width: 100px;
+    font-size:2px;
+    /* margin-top: 400px; */
+    z-index: 10000;
+    bottom: -3px;
+}

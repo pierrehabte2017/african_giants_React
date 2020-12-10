@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Slackey';
+    src: url('../../../assets/fonts/slackey/Slackey.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Logo{
+    display:flex;
+
+
+}
+
+.Logo svg {
+    height: 40px;
+    position: absolute;
+    top: -2px;
+    left: 30px;
+}
+.Logo:hover {
+    transform: scale(1.03);
+}
+
+.TextEnglish {
+    /* color: rgba(21,174,8,100); */
+    position: absolute;
+    font-family: Slackey;
+    top: -5px;
+    left: 75px;
+    font-size: 18px;
+
+}
+
+.TextAmharic {
+    /* color: rgba(21,174,8,100); */
+    font-family: Slackey;
+    position: absolute;
+    top: 11px;
+    left: 100px;
+    font-size:13px;
+
+}
+
+
+
+

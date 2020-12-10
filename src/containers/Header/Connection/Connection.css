@@ -1,0 +1,19 @@
+
+
+
+.Connection{
+    text-decoration: none;
+
+}
+.SignIn{
+    color:white;
+    padding: 4px 6px 4px 6px;
+    border-radius: 6%;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+
+.SignIn:hover{
+    transform: scale(1.03);
+}

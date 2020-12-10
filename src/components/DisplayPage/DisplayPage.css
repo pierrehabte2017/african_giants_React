@@ -1,0 +1,234 @@
+
+.VideoWrapper {
+    
+    position: absolute;
+    top:20px;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.Background {
+    position: absolute;
+    top:50px;
+    background-attachment: scroll;
+    height:30%;
+    width: 100%;
+
+
+}
+
+.Video{
+    position:relative;
+    border-radius: 3px;
+
+
+}
+.Share{
+    width: 25px;
+    height: 25px;
+    position:absolute;
+    margin-top:7px;
+    right:15%;
+
+}
+.ShareImage {
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+.ShareImage:active {
+    transform: scale(1.1);
+
+}
+
+.ShareText {
+    position: relative;
+    font-size:10px;
+    left:-2px;
+    
+}
+
+.ClapImage {
+    width: 25px;
+    height: 25px;
+    position:absolute;
+    margin-top:7px;
+    right:2%;
+
+}
+.ClapImage:active {
+    transform: scale(1.1);
+
+}
+
+.NumberClaps{
+    width: 25px;
+    height: 25px;
+    position:absolute;
+    font-size: 10px;
+    margin-top:35px;
+    right:2%;
+
+}
+
+.Title {
+    margin-top:4px;
+    text-justify: auto;
+    font-size: 15px;
+    text-align: left;
+    width:75%;
+    /* color:rgba(21,174,10,100) */
+    color:black;
+}
+
+.Date {
+    position:relative;
+    font-size: 10px;
+    left:-43%;
+    margin-top:5px;
+}
+
+
+
+
+
+.Comments{
+    height: 20px;
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    font-size:16px;
+    color: rgba(21,174,10,100);
+    /* background-color: lightpink; */
+    margin-top:15px;
+
+}
+
+.CommentsImage{
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
+    fill:rgba(21,174,10,100);
+}
+
+.Description{
+    background-color: rgba(21, 174, 8, 0.1);
+    margin-left:-5px;
+    margin-top:7px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    
+}
+
+.DescriptionTitle {
+    color: rgba(21,174,10,100);
+    style:bold;
+    position:relative;
+    font-size: 16px;
+    left:-35%;
+    margin-top:15px;
+}
+
+.DescriptionText {
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: left;
+    text-justify: auto;
+    margin-left:4%;
+    margin-right:4%;
+}
+
+.DescriptionTextLess {
+    position:relative;
+    color:rgba(21,174,10,100);
+    /* background-color: rgba(0,0,255,100); */
+    width: 40px;
+    border-radius: 40px;
+    top:8px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+    /* margin-bottom: 10px; */
+}
+
+.DescriptionTextMore {
+    top:8px;
+    position:relative;
+    color:rgba(21,174,10,100);
+    z-index: 30000;
+    /* background-color: blue; */
+    width: 40px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+.backButtonImage{
+    height: 15px;
+    width: 15px;
+    position:relative;
+    top:3px;
+}
+
+.backButton{
+   position: relative;
+   top: -10px;
+   left:-45%;
+   font-size: 15px;
+   color:black;
+}
+
+
+
+.textButtom{
+    position:relative;
+    left:6px;
+}
+
+.Space {
+    height:30px;
+}
+
+.AuthorInfo{
+    display: flex;
+    flex-direction: row;
+    margin-top:10px;
+    border-top: 1px solid rgba(21,174,8,0.5);
+    border-bottom: 1px solid rgba(21,174,8,0.5);
+    text-decoration: none;
+    color:black;
+
+}
+.AuthorImage{
+    margin-top:5px;
+    margin-bottom:5px;
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+}
+
+.AuthorName {
+    font-size: 15px;
+    margin-left:5px;
+    margin-top: 14px;
+    margin-bottom: 7px;
+}
+
+.ShareGurshaButtom{
+    position: relative;
+    margin-top: 10px;
+    width:55%;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-radius: 20px;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    padding-left: 7px;
+    padding-right: 7px;
+    background: linear-gradient(45deg, rgba(11, 204, 21, 1),rgba(235, 231, 16,1) ,rgba(235, 16, 16,1));
+    
+
+}

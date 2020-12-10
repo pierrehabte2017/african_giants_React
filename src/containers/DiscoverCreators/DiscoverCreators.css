@@ -1,0 +1,156 @@
+.DiscoverWrapper{
+    text-align: left;
+    position: relative;
+    top:180px;
+    width: 100%;
+   
+}
+
+.backButtonImage{
+    height: 20px;
+    width: 20px;
+    position:relative;
+    top:5px;
+    left:4px;
+}
+
+.backButton{
+   position: relative;
+   font-size: 15px;
+   top:60px;
+   color:black;
+}
+
+.TitleDiscover{
+    position: relative;
+    font-size:27px;
+    color:rgba(155,80,250, 1);
+    top:80px;
+    left:10px;
+    
+}
+
+
+
+.Carrousel{
+    position: relative;
+    top:95px;
+    left:1%;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    width: 98%;
+    padding-bottom: 5px;
+
+}
+.Carrousel::-webkit-scrollbar {
+    display: none;
+  }
+
+.AuthorFeaturedElement{
+    height: 250px;
+    background: linear-gradient(180deg,  rgba(155,80,250, 1), rgba(155,80,250, 0.01));
+    margin-left: 10px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    
+}
+
+.AuthorName{
+    position: relative;
+    font-size: 15px;
+    color:black;
+    width: 200px;
+    text-align: center;
+    
+}
+.AuthorLikes{
+    position: relative;
+    font-size: 10px;
+    color:rgba(0,0,0,0.9);
+
+    text-align: center;
+
+}
+.AuthorImage{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.AuthorDescription{
+    position: relative;
+    font-size:12px;
+    color:rgba(0,0,0,0.7);
+    margin-left:5px;
+    margin-right:5px;
+    text-align: center;
+    top:5px;
+}
+.CategoriesWrapper{
+    position: relative;
+    top:100px;
+    margin-top:50px
+
+}
+
+.TitleCategory{
+    position: relative;
+    font-size:20px;
+    color:rgba(155,80,250, 1);
+    margin-top:30px;
+
+}
+
+.WrapperSingleCategory{
+    top:-60px;
+    left:10px;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.CarrouselCategory{
+    display:flex;
+    flex-direction: row;
+    overflow: auto;
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    width: 98%;
+
+}
+.CarrouselCategory::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.ElementAuthorCategory{
+    padding-left:20px;
+
+}
+
+.ElementAuthorImage{
+    height: 90px;
+    width:90px;
+    border-radius: 100%;
+    box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.ElementAuthorName{
+    font-size:15px;
+}
+
+.ElementAuthorLikes{
+    font-size:10px;
+    color:rgba(0, 0, 0, 0.7)
+
+}

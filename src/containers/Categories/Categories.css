@@ -1,0 +1,50 @@
+.Categories {
+    display:flex;
+    position: absolute;
+    top:70px;
+    overflow: auto;
+    
+}
+
+.Categories::-webkit-scrollbar {
+    display: none;
+  }
+
+.CategoryWrapper {
+    position: relative;
+    text-decoration: none;
+
+    
+    
+}
+
+.Category{
+    position: relative;
+    margin-top:5px;
+    
+    
+}
+
+.DiscoverCreatorsText{
+    position: relative;
+    top:8px;
+}
+.DiscoverCreators{
+    background-color: white;
+    border-radius: 150%;
+    margin-left: 20px;
+    margin-top: 7px;
+    padding: 7px 10px 7px 10px;
+    height:70px;
+    width: 70px;
+    color:rgba(155,80,250, 1);
+    /* background-color: rgba(155,80,250, 0.1); */
+    
+    display: inline-block;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    
+
+}
+
+

@@ -1,0 +1,106 @@
+
+.LoginPageMember{
+    position:absolute;
+    font-size:50px;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(21, 174, 8, 1), rgba(71, 211, 222, 0.4));
+    display:flex;
+    direction: row;
+}
+
+.Welcome{
+    font-size:25px;
+    position:absolute;
+    top:100px;
+    left:10%;
+    color:white;
+ 
+
+
+}
+
+.EmailInput {
+    position: absolute;
+    
+    left:15%;
+    width: 70%;
+    height:50px;
+    background-color: rgba(194, 240, 190, 0.5);
+    border-radius: 10px;
+    top:170px;
+    font-size:18px;
+    
+}
+
+.PasswordInput {
+    position: absolute;
+    left:15%;
+    width: 70%;
+    height:50px;
+    background-color: rgba(194, 240, 190, 0.5);
+    border-radius: 10px;
+    top:250px;
+    font-size:18px;
+
+}
+
+.ForgotPassword {
+    position: absolute;
+    left:16%;
+    top:315px;
+    font-size:12px;
+    display:flex;
+   
+
+}
+
+.ForgotPasswordButton {
+    padding-left:5px;
+    color: blue;
+}
+
+
+.LoginButton {
+    position: absolute;
+    left:25%;
+    width: 50%;
+    height:35px;
+    background-color: rgba(21, 174, 8, 1);
+    border-radius: 30px;
+    top:350px;
+    font-size:18px;
+    color:white;
+
+
+}
+
+.LoginButton:active, .LoginButton:hover{
+    text-decoration: none;
+    outline: none;
+    background-color: rgba(71, 211, 222, 1);
+    transform: scale(1.05);
+    
+} 
+
+.LoginButtonText{
+    position:relative;
+    top:-3px;
+}
+
+.SignUp {
+    position: absolute;
+    left:10%;
+    top:500px;
+    font-size:20px;
+    display:flex;
+    color:white;
+
+}
+
+.SignUpButton {
+    position:relative;
+    padding-left:7px;
+    color: blue;
+    top:4px;
+}

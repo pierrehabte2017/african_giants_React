@@ -1,0 +1,162 @@
+.Background {
+    position: absolute;
+    top:47px;
+    background-attachment: scroll;
+    height:15%;
+    width: 100%;
+    background-image: linear-gradient(rgba(21, 174, 8, 1), rgba(71, 211, 222, 0.01));
+}
+
+.ProfilePageWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    
+
+}
+
+.backButtonImage{
+    height: 20px;
+    width: 20px;
+    
+}
+
+.backButton{
+    position:relative;
+    left:10px;
+   font-size: 15px;
+   display:flex;
+   flex-direction: row;
+   color:rgba(0, 0, 0, 0.9);
+}
+
+.ProfileImage{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+    fill: purple;
+    border: 1px solid rgba(21,174,8,0.1);
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Username{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top:10px;
+}
+
+.ApplyAuthor{
+    height: 800px;
+    margin-top:40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid rgba(21,174,8,0.1); */
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.ApplyAuthorTopBar{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    color:white;
+    background-color: royalblue;
+    border-radius: 5px;
+}
+
+.ApplyAuthorTitle{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-size: 18px;
+    color:royalblue;
+    margin-top: 5px;
+}
+
+.ApplyAuthorDescription {
+    position: relative;
+    margin-top: 13px;
+    text-align: left;
+}
+.ApplyAuthorDescriptionText {
+    font-size:16px;
+    margin-top: 7px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.ApplyAuthorButton{
+    margin-top: 10px;
+    width:120px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    background-color: royalblue;
+    border-radius: 30px;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.FeedbackButtom{
+    margin-top: 10px;
+    width:120px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    background-color: royalblue;
+    border-radius: 30px;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.Link{
+    text-decoration: none;
+}
+
+
+.EnjoyGif{
+    position: relative;
+    margin-left: 5%;
+    
+    margin-top: 40px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.ShareGurshaButtom{
+
+    margin-top: 20px;
+    width:55%;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-radius: 20px;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(45deg, rgba(11, 204, 21, 1),rgba(235, 231, 16,1) ,rgba(235, 16, 16,1));
+    
+
+}
+
+
+

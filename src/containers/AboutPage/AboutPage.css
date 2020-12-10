@@ -1,0 +1,70 @@
+.backButtonImage{
+    height: 20px;
+    width: 20px;
+    
+}
+
+.backButton{
+    position:relative;
+    left:10px;
+   font-size: 15px;
+   display:flex;
+   flex-direction: row;
+   color:rgba(0, 0, 0, 0.9);
+    top:80px;
+}
+
+
+.AboutWrapper{
+    position: relative;
+    width: 90%;
+    margin-left:5%;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+    height:800px;
+    margin-top:90px;
+    margin-bottom: 30px;
+}
+
+.AboutTopBar{
+    position: relative;
+    background-color: rgba(21, 174, 8, 1);
+    height: 5px;
+    width: 100%;
+    border-radius: 10px;
+    color:white;
+    
+
+}
+
+
+.AboutTitle{
+    position: relative;
+    font-size: 20px;
+    color:rgba(21, 174, 8, 1);
+
+}
+
+.AboutDescription{
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: left;
+    padding-left: 7px;
+}
+
+.Gif{
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.EndMessage{
+    font-size:21px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: rgba(21, 174, 8, 1);
+}

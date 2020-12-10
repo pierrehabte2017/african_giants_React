@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.mrtbns",
+      "sha256_cert_fingerprints": ["74:E8:B4:73:92:3E:E4:99:9F:D7:99:14:01:CE:8E:AE:C6:57:13:E6:3A:25:25:89:24:BA:91:F0:1D:3A:FA:36",
+        "D3:5B:E7:C3:8F:08:E6:41:C1:8C:D8:B6:0C:02:5D:0E:75:67:84:1A:84:CA:33:19:C2:B3:F4:5E:F0:B7:A6:25"]
+    }
+  }
+]

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../../assets/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../../assets/fonts/roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.TextWrapperRegular {
+    font-family: RobotoRegular;
+    /* font-style: bold; */
+}
+
+.TextWrapperBold {
+    font-family: RobotoBold;
+    /* font-style: bold; */
+}

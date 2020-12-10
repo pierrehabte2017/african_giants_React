@@ -1,0 +1,62 @@
+.RelatedWrapper{
+    height: 270px;
+    width: 105%;
+    background-color: white;
+    margin-bottom: 60px;
+    border-radius: 5px;
+    margin-top:15px;
+    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25); */
+    text-align: left;
+}
+
+.Title {
+    color: rgba(21,174,10,100);
+    padding-top: 4px;
+
+}
+
+.Carrousel{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    overflow: auto;
+    margin-left:-12px;
+    margin-top:7px;
+    
+    
+}
+
+.Carrousel::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.ContentElement{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.ContentImage{
+    width: 190px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.ContentDescription {
+    font-size: 12px;
+    padding-top: 4px;
+    text-decoration: none;
+    color:black;
+}
+
+.ContentAuthor{
+    position: relative;
+    font-size: 10px;
+    padding-top: 4px;
+    color:rgba(0, 0, 0, 0.5);
+
+}
+

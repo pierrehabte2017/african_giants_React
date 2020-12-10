@@ -1,0 +1,56 @@
+.Wrapper{
+    margin-top: 25px;
+    height: 130px;
+    width: 100%;
+    margin-bottom: 65px;
+}
+
+.Title{
+    position: relative;
+    font-size: 15px;
+    color:rgba(21,174,8,0.8)
+}
+
+.TopCreatorWrapper{
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    margin-top: 10px;
+    
+}
+
+.TopCreatorWrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+.AuthorElement{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left:20px;
+    text-decoration: none;
+
+    
+}
+
+.AuthorImage{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    justify-content: center;
+    border-radius: 100%;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+.AuthorName{
+    margin-top: 2px;
+    position: relative;
+    font-size: 12px;
+    color:black;
+}
+
+.AuthorClaps{
+    font-size: 11px;
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 0.4);
+}
